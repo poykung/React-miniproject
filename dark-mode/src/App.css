@@ -1,0 +1,43 @@
+header,main,footer{
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 3.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+header{
+  align-items: center;
+}
+h1{
+  font-weight: 900;
+  margin:0;
+  font-size: 6rem;
+  text-align: center;
+}
+main{
+  text-align: center;
+}
+
+
+
+main img{
+  width: 50%;
+}
+
+header.dark{
+  background-color: #121213;
+  color: orange;
+}
+
+main.dark{
+  background: #121213;
+  color:white;
+}
+
+footer.dark{
+  background: #121213;
+}
+
+main.dark p{
+  color: orange;
+}
