@@ -1,0 +1,88 @@
+body{
+  background: whitesmoke;
+}
+
+h1{
+  font-size: 1.8rem;
+  line-height: 1.2;
+  text-align: center;
+  color: black;
+}
+
+.container{
+  background: white;
+  padding: 1.2 rem;
+  width: 90vw;
+  margin: 8rem auto;
+  max-width: 40rem;
+  border-radius: 0.25 rem;
+ 
+}
+
+.form-control{
+  display: flex;
+  justify-content: center;
+
+}
+
+.text-input{
+  padding: 0.25rem;
+  font-size: 1.2rem;
+  background: lightgrey;
+  flex: 1 0 auto;
+  border: none;
+}
+
+.text-input:focus{
+  outline: none;
+}
+
+.btn-submit{
+  background: orange;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  border: transparent;
+  font-size: 1.2rem;
+}
+
+.list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  padding: 0.25rem 1rem;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.7);
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+}
+
+.alert{
+  margin-bottom: 1.5rem;
+  height: 1.25rem;
+  padding: 0.25rem 1rem;
+
+}
+
+.alert.error{
+  background: lightcoral;
+  color: white;
+}
+
+.alert.success{
+  background: lightgreen;
+  color: white;
+}
+
+.btn{
+  font-size: 1.2rem;
+  margin-left: 0.8rem;
+  cursor: pointer;
+  color: white;
+  background: orange;
+  border: none;
+  padding: 0.3rem;
+  width: 3rem;
+
+}
